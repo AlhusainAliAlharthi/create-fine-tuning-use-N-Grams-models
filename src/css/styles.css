@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  background: linear-gradient(45deg, #0d6efd, #008000);
+  background-size: 200% 200%;
+  animation: gradientMovement 10s infinite;
+}
+
+@keyframes gradientMovement {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h6 {
+  font-weight: bold;
+}
+
+.pageNameBlue {
+  color: #0d6efd;
+}
+
+.pageNameGreen {
+  color: #008000;
+}
+
+.userInput {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fixed-size {
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+}
+.nav-tabs .nav-link.active {
+  color: #008000 !important;
+}
+
+.dropzone {
+  border: 2px dashed #69b199;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.dropzone:hover {
+  background-color: #e9f7f4;
+}
+
+.dropzone p {
+  color: #69b199;
+}
+
+.dropzone input {
+  display: none;
+}
+
+.dropzone.is-dragover {
+  background-color: #e9f7f4;
+  border-color: #57a089;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  display: none;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.irs--flat .irs-bar {
+  background-color: #008000;
+}
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+  background-color: #008000;
+}
+.irs--flat .irs-handle > i:first-child {
+  background-color: #008000;
+}
+.irs-bar .irs-bar--single {
+  background-color: #008000;
+}
+.irs--flat .irs-handle.state_hover > i:first-child,
+.irs--flat .irs-handle:hover > i:first-child {
+  background-color: #008000;
+}
+
+.irs--flat .irs-from:before,
+.irs--flat .irs-to:before,
+.irs--flat .irs-single:before {
+  border-top-color: #008000;
+}
+
+#field {
+  background-color: transparent;
+  border-bottom: none;
+  padding: 0%;
+  padding-right: 2%;
+  position: relative;
+  border-top-left-radius: initial;
+  border-top-right-radius: initial;
+}
+
+#notBold {
+  font-style: initial;
+  font-weight: normal;
+}
