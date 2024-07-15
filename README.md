@@ -48,4 +48,10 @@ Throughout the project, you will find explanations and insights into how N-Grams
 
 ## Contributing
 
-Your contributions are welcome! If you have ideas for improvements or have found a bug, feel free to open an issue or submit a pull request. Together, we can make this tool even better!
+Your contributions are welcome! If you have ideas for improvements or have found a bug, feel free to contribute:
+
+- Fork the Repository
+- Create a Feature Branch
+- Commit Your Changes
+- Push to the Branch
+- Open a Pull Request
