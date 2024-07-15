@@ -53,7 +53,3 @@ Contributions are welcome! If you have any ideas for improvements or have found 
 1. **Fork the Repository**
 
 2. **Open a Pull Request**
-
-## Acknowledgments
-
-Thank you to everyone who has contributed to this project. Your efforts make it possible to provide a valuable educational tool for students and researchers alike.
