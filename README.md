@@ -17,9 +17,10 @@ Welcome to the N-Grams models Tool! This open-source project is designed for cre
 1. **Clone the Repository**
 
    git clone https://github.com/AlhusainAliAlharthi/create-fine-tuning-use-N-Grams-models.git
+
    cd create-fine-tuning-use-N-Grams-models
 
-2. **Open in Browser**
+3. **Open in Browser**
 
    Open `index.html` in your browser to start using the tool.
 
