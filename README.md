@@ -48,8 +48,4 @@ Throughout the project, you will find explanations and insights into how N-Grams
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas for improvements or have found a bug, feel free to open an issue or submit a pull request.
-
-1. **Fork the Repository**
-
-2. **Open a Pull Request**
+Your contributions are welcome! If you have ideas for improvements or have found a bug, feel free to open an issue or submit a pull request. Together, we can make this tool even better!
